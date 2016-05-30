@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NATableView_Example' do
+  pod 'NATableView', :path => '../'
+
+  target 'NATableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

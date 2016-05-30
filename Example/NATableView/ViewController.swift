@@ -1,0 +1,38 @@
+//
+//  ViewController.swift
+//  NATableView
+//
+//  Created by Nick Ager on 05/30/2016.
+//  Copyright (c) 2016 Nick Ager. All rights reserved.
+//
+
+import UIKit
+import NATableView
+
+class ViewController: UIViewController {
+
+    @IBOutlet var tableView: NATableView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let cells = (1...10).map { (val) -> CellActionPair in
+            let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: nil)
+            cell.textLabel?.text = "value is \(val)"
+            cell.detailTextLabel?.text = "twice the value is \(val * 2)"
+            return (cell, {[unowned self] (_) in self.showMessageForValue(val)})
+        }
+        
+        let section = NATableSection(title: "A Test", cells: cells)
+        tableView.sections = [section]
+    }
+    
+    
+    func showMessageForValue(val: Int) {
+        let alertController  = UIAlertController(title:"Cell selected" , message: "Value = '\(val)'", preferredStyle: .Alert)
+        let cancelAction = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
+        alertController.addAction(cancelAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
+}
+

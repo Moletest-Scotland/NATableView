@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAB3A439219DB7124BADC376017B859 /* NATableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AFE2E3B5414D03076E02A0745B375 /* NATableView-dummy.m */; };
+		8A9445FEE76BD53EE1F5C4FFD1FE8C63 /* Pods-NATableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3B55B45A79FF48BF317808862323C3 /* Pods-NATableView_Example-dummy.m */; };
+		95F9BC4FED40066189A3C90ABFF037F9 /* Pods-NATableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE96E2676CCEDBDD72E6C8405716CB1 /* Pods-NATableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2DE46B16EECF868F07F4A07A8F48B76 /* NATableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B731C7AD1359C22CA61271F58836F80E /* NATableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A780ACA6663B4EC33AD1EFD08191B579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BDF5709463AB9C6D3783DABF482553A2 /* Pods-NATableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4979C43ABD98437F584143EEFAD4075D /* Pods-NATableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8FD83EAF0DE6A3AA41714C68B616A5 /* Pods-NATableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF486A5D6BFBD74E75A9A76B6A963E6 /* Pods-NATableView_Tests-dummy.m */; };
+		E005DF30C6D02064407CEAC7A49D1B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E98229386E2D0C913DCA41A55112395E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FA8239F6E52F9BCA891A9208D94EE228 /* NATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E120FEA0A09623D2BBEDBC071ACF3D4 /* NATableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		539678FA7C32331A15824AEE7AF3AFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054194A0DF6BC4542EB224EE00BC97EA;
+			remoteInfo = NATableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D3494B489E90066C680538CE28EA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411F5109C45F04E925CE981D84F5A711 /* Pods-NATableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NATableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4979C43ABD98437F584143EEFAD4075D /* Pods-NATableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NATableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E120FEA0A09623D2BBEDBC071ACF3D4 /* NATableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NATableView.swift; sourceTree = "<group>"; };
+		52B7D819336C7F7E795DC4AFF8AF3099 /* NATableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NATableView.modulemap; sourceTree = "<group>"; };
+		56C651149C06E113C30E89AD14F1F902 /* Pods-NATableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NATableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		811D9C83D60E0529C8260ED8CB3813AD /* NATableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NATableView.xcconfig; sourceTree = "<group>"; };
+		82838BE62C547A458B20DDD597938B9A /* Pods-NATableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NATableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		916D56717403610518312D168E3CD694 /* Pods_NATableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NATableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DBBE54C0C6590912CBF1219BBC2D55 /* NATableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NATableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF44D0EA07654A5DD975043C4C19551 /* Pods-NATableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NATableView_Tests.modulemap"; sourceTree = "<group>"; };
+		9E2AFE2E3B5414D03076E02A0745B375 /* NATableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NATableView-dummy.m"; sourceTree = "<group>"; };
+		AC705C0FB54BBEF9175A109764E4F591 /* Pods-NATableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NATableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD6861E84B1D5005A31BA3E696F5A8F3 /* Pods-NATableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NATableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF3B55B45A79FF48BF317808862323C3 /* Pods-NATableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NATableView_Example-dummy.m"; sourceTree = "<group>"; };
+		B3D2F67488D48489BC4DB48708838E20 /* Pods_NATableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NATableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B731C7AD1359C22CA61271F58836F80E /* NATableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NATableView-umbrella.h"; sourceTree = "<group>"; };
+		BD6B5EA45299FE09D003D5A41221DA5C /* Pods-NATableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NATableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF7D4D1D251A6A182EB606977D52B57F /* Pods-NATableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NATableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		C5C2A12FBE4E09605AC3F79A0D703B97 /* Pods-NATableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NATableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C931827A8291946B41A24931372BDF8E /* Pods-NATableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NATableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEFCEB001B2A966B392B5A1959673A47 /* Pods-NATableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NATableView_Example-resources.sh"; sourceTree = "<group>"; };
+		D1AB70C9BBE7AF30A2D9C0417E466E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E449ECAEDAFF8377EA1221C988195FF5 /* Pods-NATableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NATableView_Example.modulemap"; sourceTree = "<group>"; };
+		EAE96E2676CCEDBDD72E6C8405716CB1 /* Pods-NATableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NATableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECCD195A9E58551E4190F06FF7B2BD08 /* Pods-NATableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NATableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF2F09C092F251C3FAC6B40711C51D0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3734CEE6A8F3E04DCA6B0E7DC9E280F /* Pods-NATableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NATableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8CAD9828CA32117352C7E59AAAB4A8B /* NATableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NATableView-prefix.pch"; sourceTree = "<group>"; };
+		FFF486A5D6BFBD74E75A9A76B6A963E6 /* Pods-NATableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NATableView_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A17218BFB9288FBD6731539D5E54F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780ACA6663B4EC33AD1EFD08191B579 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428C79335DA64EFD2BE7516F5792D26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98229386E2D0C913DCA41A55112395E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF50CA62664C1CD5505B237F77F48E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E005DF30C6D02064407CEAC7A49D1B97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EA16DEB175D330022EB3182FF91331 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0472579A0842A0C034BB1018902A9 /* NATableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		523CAED28FD66FE9D07F088C75E33AE2 /* Pods-NATableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB70C9BBE7AF30A2D9C0417E466E07 /* Info.plist */,
+				9AF44D0EA07654A5DD975043C4C19551 /* Pods-NATableView_Tests.modulemap */,
+				C931827A8291946B41A24931372BDF8E /* Pods-NATableView_Tests-acknowledgements.markdown */,
+				56C651149C06E113C30E89AD14F1F902 /* Pods-NATableView_Tests-acknowledgements.plist */,
+				FFF486A5D6BFBD74E75A9A76B6A963E6 /* Pods-NATableView_Tests-dummy.m */,
+				AD6861E84B1D5005A31BA3E696F5A8F3 /* Pods-NATableView_Tests-frameworks.sh */,
+				BF7D4D1D251A6A182EB606977D52B57F /* Pods-NATableView_Tests-resources.sh */,
+				EAE96E2676CCEDBDD72E6C8405716CB1 /* Pods-NATableView_Tests-umbrella.h */,
+				82838BE62C547A458B20DDD597938B9A /* Pods-NATableView_Tests.debug.xcconfig */,
+				ECCD195A9E58551E4190F06FF7B2BD08 /* Pods-NATableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NATableView_Tests";
+			path = "Target Support Files/Pods-NATableView_Tests";
+			sourceTree = "<group>";
+		};
+		68F974153051DC458B012BB2B8089FCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E120FEA0A09623D2BBEDBC071ACF3D4 /* NATableView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		726561268D2D74A6607D331842F2CBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DBBE54C0C6590912CBF1219BBC2D55 /* NATableView.framework */,
+				916D56717403610518312D168E3CD694 /* Pods_NATableView_Example.framework */,
+				B3D2F67488D48489BC4DB48708838E20 /* Pods_NATableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB0472579A0842A0C034BB1018902A9 /* NATableView */ = {
+			isa = PBXGroup;
+			children = (
+				985FD20351A4ED36EE62B58E2A0406A5 /* NATableView */,
+				BBB5D76F50C21CFC3733D5EC71678C60 /* Support Files */,
+			);
+			name = NATableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				06EA16DEB175D330022EB3182FF91331 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				726561268D2D74A6607D331842F2CBDE /* Products */,
+				9EF9A30ACE280C18228B6810DB97DFFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		985FD20351A4ED36EE62B58E2A0406A5 /* NATableView */ = {
+			isa = PBXGroup;
+			children = (
+				68F974153051DC458B012BB2B8089FCB /* Classes */,
+			);
+			path = NATableView;
+			sourceTree = "<group>";
+		};
+		9EF9A30ACE280C18228B6810DB97DFFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6DF8B3FB104F53AD6ED2284600283 /* Pods-NATableView_Example */,
+				523CAED28FD66FE9D07F088C75E33AE2 /* Pods-NATableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABF6DF8B3FB104F53AD6ED2284600283 /* Pods-NATableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				005D3494B489E90066C680538CE28EA0 /* Info.plist */,
+				E449ECAEDAFF8377EA1221C988195FF5 /* Pods-NATableView_Example.modulemap */,
+				C5C2A12FBE4E09605AC3F79A0D703B97 /* Pods-NATableView_Example-acknowledgements.markdown */,
+				411F5109C45F04E925CE981D84F5A711 /* Pods-NATableView_Example-acknowledgements.plist */,
+				AF3B55B45A79FF48BF317808862323C3 /* Pods-NATableView_Example-dummy.m */,
+				AC705C0FB54BBEF9175A109764E4F591 /* Pods-NATableView_Example-frameworks.sh */,
+				CEFCEB001B2A966B392B5A1959673A47 /* Pods-NATableView_Example-resources.sh */,
+				4979C43ABD98437F584143EEFAD4075D /* Pods-NATableView_Example-umbrella.h */,
+				F3734CEE6A8F3E04DCA6B0E7DC9E280F /* Pods-NATableView_Example.debug.xcconfig */,
+				BD6B5EA45299FE09D003D5A41221DA5C /* Pods-NATableView_Example.release.xcconfig */,
+			);
+			name = "Pods-NATableView_Example";
+			path = "Target Support Files/Pods-NATableView_Example";
+			sourceTree = "<group>";
+		};
+		BBB5D76F50C21CFC3733D5EC71678C60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F09C092F251C3FAC6B40711C51D0B /* Info.plist */,
+				52B7D819336C7F7E795DC4AFF8AF3099 /* NATableView.modulemap */,
+				811D9C83D60E0529C8260ED8CB3813AD /* NATableView.xcconfig */,
+				9E2AFE2E3B5414D03076E02A0745B375 /* NATableView-dummy.m */,
+				F8CAD9828CA32117352C7E59AAAB4A8B /* NATableView-prefix.pch */,
+				B731C7AD1359C22CA61271F58836F80E /* NATableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NATableView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48825BDD162E90ADB9E6CBAA3CFD3C9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F9BC4FED40066189A3C90ABFF037F9 /* Pods-NATableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF264BC4041BE9B5895A9FC817FEB7C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF5709463AB9C6D3783DABF482553A2 /* Pods-NATableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78888EC1A6E1DF2F5235E62AD22E3E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE46B16EECF868F07F4A07A8F48B76 /* NATableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		054194A0DF6BC4542EB224EE00BC97EA /* NATableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16248CABB03FD3FF9A974429327645 /* Build configuration list for PBXNativeTarget "NATableView" */;
+			buildPhases = (
+				1A982F798183AFE18681BDE466B976AD /* Sources */,
+				BF50CA62664C1CD5505B237F77F48E55 /* Frameworks */,
+				F78888EC1A6E1DF2F5235E62AD22E3E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NATableView;
+			productName = NATableView;
+			productReference = 98DBBE54C0C6590912CBF1219BBC2D55 /* NATableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		06D3B392E25DA3989A07B664F8A5A711 /* Pods-NATableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0FBAD174E75048E797C9DAAA98A3FA /* Build configuration list for PBXNativeTarget "Pods-NATableView_Tests" */;
+			buildPhases = (
+				825F3781B37B372D188831503A289B84 /* Sources */,
+				428C79335DA64EFD2BE7516F5792D26D /* Frameworks */,
+				48825BDD162E90ADB9E6CBAA3CFD3C9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NATableView_Tests";
+			productName = "Pods-NATableView_Tests";
+			productReference = B3D2F67488D48489BC4DB48708838E20 /* Pods_NATableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7AC0E3DADEBAD483ABCE18EEF96C0ED /* Pods-NATableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D42AD3A7E3FFC09FD9C27DDB1C4F81 /* Build configuration list for PBXNativeTarget "Pods-NATableView_Example" */;
+			buildPhases = (
+				785F24845BC1EF8F66A11FBF6B700E96 /* Sources */,
+				13A17218BFB9288FBD6731539D5E54F9 /* Frameworks */,
+				AF264BC4041BE9B5895A9FC817FEB7C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5D13175728FFF721829D8B14C44FD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NATableView_Example";
+			productName = "Pods-NATableView_Example";
+			productReference = 916D56717403610518312D168E3CD694 /* Pods_NATableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 726561268D2D74A6607D331842F2CBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054194A0DF6BC4542EB224EE00BC97EA /* NATableView */,
+				F7AC0E3DADEBAD483ABCE18EEF96C0ED /* Pods-NATableView_Example */,
+				06D3B392E25DA3989A07B664F8A5A711 /* Pods-NATableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A982F798183AFE18681BDE466B976AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAB3A439219DB7124BADC376017B859 /* NATableView-dummy.m in Sources */,
+				FA8239F6E52F9BCA891A9208D94EE228 /* NATableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785F24845BC1EF8F66A11FBF6B700E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9445FEE76BD53EE1F5C4FFD1FE8C63 /* Pods-NATableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825F3781B37B372D188831503A289B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8FD83EAF0DE6A3AA41714C68B616A5 /* Pods-NATableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5D13175728FFF721829D8B14C44FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NATableView;
+			target = 054194A0DF6BC4542EB224EE00BC97EA /* NATableView */;
+			targetProxy = 539678FA7C32331A15824AEE7AF3AFB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEF96108E603041FCC851C76A7443BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82838BE62C547A458B20DDD597938B9A /* Pods-NATableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NATableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NATableView_Tests/Pods-NATableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NATableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B6A2F316CEAE6D65DE0C19CB653527F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6B5EA45299FE09D003D5A41221DA5C /* Pods-NATableView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NATableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NATableView_Example/Pods-NATableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NATableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E19606CC3C9ACF0BD19210194FCF4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCD195A9E58551E4190F06FF7B2BD08 /* Pods-NATableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NATableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NATableView_Tests/Pods-NATableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NATableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D432DF690AC861FF71E3E1E06AB98314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811D9C83D60E0529C8260ED8CB3813AD /* NATableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NATableView/NATableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NATableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NATableView/NATableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NATableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D792C8CB747DD36A9FEEFA8469C97AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3734CEE6A8F3E04DCA6B0E7DC9E280F /* Pods-NATableView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NATableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NATableView_Example/Pods-NATableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NATableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA9D7BC2A6064F4F0C7521E4D5768873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811D9C83D60E0529C8260ED8CB3813AD /* NATableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NATableView/NATableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NATableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NATableView/NATableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NATableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D42AD3A7E3FFC09FD9C27DDB1C4F81 /* Build configuration list for PBXNativeTarget "Pods-NATableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792C8CB747DD36A9FEEFA8469C97AA6 /* Debug */,
+				9B6A2F316CEAE6D65DE0C19CB653527F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0FBAD174E75048E797C9DAAA98A3FA /* Build configuration list for PBXNativeTarget "Pods-NATableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEF96108E603041FCC851C76A7443BF /* Debug */,
+				9E19606CC3C9ACF0BD19210194FCF4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16248CABB03FD3FF9A974429327645 /* Build configuration list for PBXNativeTarget "NATableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D432DF690AC861FF71E3E1E06AB98314 /* Debug */,
+				DA9D7BC2A6064F4F0C7521E4D5768873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

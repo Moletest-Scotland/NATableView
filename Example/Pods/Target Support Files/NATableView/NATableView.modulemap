@@ -1,0 +1,6 @@
+framework module NATableView {
+  umbrella header "NATableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

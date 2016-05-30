@@ -1,0 +1,16 @@
+PODS:
+  - NATableView (0.1.0)
+
+DEPENDENCIES:
+  - NATableView (from `../`)
+
+EXTERNAL SOURCES:
+  NATableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NATableView: cd3e184f01b456665dfc82a9042713aad2247c28
+
+PODFILE CHECKSUM: 7b2c1115116c004fd27922252df688150ca3ac3b
+
+COCOAPODS: 1.0.0
