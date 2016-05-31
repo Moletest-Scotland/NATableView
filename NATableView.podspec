@@ -9,8 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NATableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NATableView.'
-
+  s.summary          = 'Wrapper for UITableView, UITableViewDataSource and UITableViewDelegate.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,20 +17,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Wrapper for UITableView, UITableViewDataSource and UITableViewDelegate.
+  Convenient when displaying a bounded number of cells (less than 20)
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NATableView'
+  s.homepage         = 'https://github.com/nickager/NATableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nick Ager' => 'nick.ager@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NATableView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nickager/NATableView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NATableView/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'NATableView' => ['NATableView/Assets/*.png']
   # }
