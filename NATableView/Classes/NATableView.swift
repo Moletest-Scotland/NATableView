@@ -23,6 +23,7 @@ public struct NATableSection {
 
 public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     var sectionTitleHeight : CGFloat = 20
+    public var anyCellSelectedAction: CellAction?
     
     public var sections : [NATableSection] = [] {
         didSet {
@@ -61,6 +62,11 @@ public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSourc
     
     public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let (cell, possibleAction) = cellFromIndexPath(indexPath)
+        
+        if let cellSelectedAction = self.anyCellSelectedAction {
+            cellSelectedAction(cell)
+        }
+        
         if let action = possibleAction {
             action(cell)
         }

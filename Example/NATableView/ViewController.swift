@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         
         let section = NATableSection(title: "A Test", cells: cells)
         tableView.sections = [section]
+        
+        tableView.anyCellSelectedAction = { (_) in print("A cell has been selected")}
     }
     
     
