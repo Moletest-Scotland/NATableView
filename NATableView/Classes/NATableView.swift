@@ -13,7 +13,7 @@ public typealias CellActionPair = (cell: UITableViewCell, action: CellAction?)
 
 public struct NATableSection {
     let title : String?
-    let cells : [CellActionPair]
+    public var cells : [CellActionPair]
     
     public init(title: String?, cells: [CellActionPair]) {
         self.title = title
@@ -22,7 +22,7 @@ public struct NATableSection {
 }
 
 public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
-    var sectionTitleHeight : CGFloat = 20
+    public var sectionTitleHeight : CGFloat = 20
     public var anyCellSelectedAction: CellAction?
     
     public var sections : [NATableSection] = [] {
