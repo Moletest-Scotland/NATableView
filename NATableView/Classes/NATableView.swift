@@ -8,14 +8,14 @@
 
 import UIKit
 
-public typealias CellAction = UITableViewCell -> Void
-public typealias CellActionPair = (cell: UITableViewCell, action: CellAction?)
+public typealias NACellAction = UITableViewCell -> Void
+public typealias NACellActionPair = (cell: UITableViewCell, action: NACellAction?)
 
 public struct NATableSection {
     let title : String?
-    public var cells : [CellActionPair]
+    public var cells : [NACellActionPair]
     
-    public init(title: String?, cells: [CellActionPair]) {
+    public init(title: String?, cells: [NACellActionPair]) {
         self.title = title
         self.cells = cells
     }
@@ -23,7 +23,7 @@ public struct NATableSection {
 
 public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     public var sectionTitleHeight : CGFloat = 20
-    public var anyCellSelectedAction: CellAction?
+    public var anyCellSelectedAction: NACellAction?
     
     public var sections : [NATableSection] = [] {
         didSet {
@@ -101,7 +101,7 @@ public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSourc
     
     // MARK:
     
-    func cellFromIndexPath(indexPath: NSIndexPath) -> CellActionPair {
+    func cellFromIndexPath(indexPath: NSIndexPath) -> NACellActionPair {
         let section = sections[indexPath.section]
         return section.cells[indexPath.row]
     }

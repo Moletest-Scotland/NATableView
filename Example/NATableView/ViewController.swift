@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let cells = (1...10).map { (val) -> CellActionPair in
+        let cells = (1...10).map { (val) -> NACellActionPair in
             let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: nil)
             cell.textLabel?.text = "value is \(val)"
             cell.detailTextLabel?.text = "twice the value is \(val * 2)"

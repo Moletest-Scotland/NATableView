@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NATableView'
-  s.version          = '2.0.1'
+  s.version          = '3.0.0'
   s.summary          = 'Wrapper for UITableView, UITableViewDataSource and UITableViewDelegate.'
 
   s.description      = <<-DESC
