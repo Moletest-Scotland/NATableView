@@ -9,7 +9,8 @@
 import UIKit
 
 public typealias NACellAction = UITableViewCell -> Void
-public typealias NACellActionPair = (cell: UITableViewCell, action: NACellAction?)
+public let NANoCellAction: NACellAction = { (_) in }
+public typealias NACellActionPair = (cell: UITableViewCell, action: NACellAction)
 
 public struct NATableSection {
     let title : String?
@@ -23,7 +24,7 @@ public struct NATableSection {
 
 public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     public var sectionTitleHeight : CGFloat = 20
-    public var anyCellSelectedAction: NACellAction?
+    public var anyCellSelectedAction: NACellAction = NANoCellAction
     
     public var sections : [NATableSection] = [] {
         didSet {
@@ -61,15 +62,11 @@ public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSourc
     }
     
     public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let (cell, possibleAction) = cellFromIndexPath(indexPath)
+        let (cell, action) = cellFromIndexPath(indexPath)
         
-        if let cellSelectedAction = self.anyCellSelectedAction {
-            cellSelectedAction(cell)
-        }
+        anyCellSelectedAction(cell)
+        action(cell)
         
-        if let action = possibleAction {
-            action(cell)
-        }
         cell.selected = false
     }
     
