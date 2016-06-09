@@ -23,7 +23,6 @@ public struct NATableSection {
 }
 
 public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
-    public var sectionTitleHeight : CGFloat = 20
     public var anyCellSelectedAction: NACellAction = NANoCellAction
     
     public var sections : [NATableSection] = [] {
@@ -89,11 +88,6 @@ public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSourc
     public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let section = sections[section]
         return section.title
-    }
-    
-    public func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        let section = sections[section]
-        return section.title == nil ? 0 : sectionTitleHeight
     }
     
     // MARK:
