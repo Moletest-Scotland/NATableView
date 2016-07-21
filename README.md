@@ -24,6 +24,9 @@ it, simply add the following line to your Podfile:
 pod "NATableView"
 ```
 
+## See Also
+* [Generic Table View Controllers](https://talk.objc.io/episodes/S01E06-generic-table-view-controllers) - an alternative approach
+
 ## Author
 
 Nick Ager, nick.ager@gmail.com
