@@ -72,8 +72,8 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     
     // MARK: UITableViewDataSource
     
-    public func numberOfSections(in tableView: UITableView) -> Int {
-        <#code#>
+    open func numberOfSections(in tableView: UITableView) -> Int {
+        return sections.count
     }
     
     open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
