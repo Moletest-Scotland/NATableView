@@ -1,9 +1,8 @@
 //
 //  NATableView.swift
-//  ShareCare
 //
 //  Created by Nick Ager on 03/05/2016.
-//  Copyright © 2016 ShareCare Ltd. All rights reserved.
+//  Copyright © 2016 Rocketbox Ltd. All rights reserved.
 //
 
 import UIKit
