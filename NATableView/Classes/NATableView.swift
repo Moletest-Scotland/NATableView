@@ -55,12 +55,13 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     
     // MARK: UITableViewDelegate
     
-    open func tableView(tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+
+    open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let (cell, _) = cellFrom(indexPath: indexPath)
         return cell.frame.size.height
     }
     
-    open func tableView(tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let (cell, action) = cellFrom(indexPath: indexPath)
         
         anyCellSelectedAction(cell)
@@ -71,8 +72,8 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     
     // MARK: UITableViewDataSource
     
-    open func numberOfSections(in tableView: UITableView) -> Int {
-        return sections.count
+    public func numberOfSections(in tableView: UITableView) -> Int {
+        <#code#>
     }
     
     open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -85,7 +86,7 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
         return cell
     }
     
-    open func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    open func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let section = sections[section]
         return section.title
     }
