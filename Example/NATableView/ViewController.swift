@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let cells = (1...10).map { (val) -> NACellActionPair in
-            let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: nil)
+            let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
             cell.textLabel?.text = "value is \(val)"
             cell.detailTextLabel?.text = "twice the value is \(val * 2)"
             return (cell, {[unowned self] (_) in self.showMessageForValue(val)})
@@ -30,11 +30,11 @@ class ViewController: UIViewController {
     }
     
     
-    func showMessageForValue(val: Int) {
-        let alertController  = UIAlertController(title:"Cell selected" , message: "Value = '\(val)'", preferredStyle: .Alert)
-        let cancelAction = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
+    func showMessageForValue(_ val: Int) {
+        let alertController  = UIAlertController(title:"Cell selected" , message: "Value = '\(val)'", preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(cancelAction)
-        self.presentViewController(alertController, animated: true, completion: nil)
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 

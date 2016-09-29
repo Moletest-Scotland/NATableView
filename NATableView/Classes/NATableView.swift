@@ -8,7 +8,7 @@
 
 import UIKit
 
-public typealias NACellAction = UITableViewCell -> Void
+public typealias NACellAction = (UITableViewCell) -> Void
 public let NANoCellAction: NACellAction = { (_) in }
 public typealias NACellActionPair = (cell: UITableViewCell, action: NACellAction)
 
@@ -22,10 +22,10 @@ public struct NATableSection {
     }
 }
 
-public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
-    public var anyCellSelectedAction: NACellAction = NANoCellAction
+open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource {
+    open var anyCellSelectedAction: NACellAction = NANoCellAction
     
-    public var sections : [NATableSection] = [] {
+    open var sections : [NATableSection] = [] {
         didSet {
             forceLayout()
         }
@@ -55,44 +55,44 @@ public class NATableView: UITableView, UITableViewDelegate, UITableViewDataSourc
     
     // MARK: UITableViewDelegate
     
-    public func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        let (cell, _) = cellFromIndexPath(indexPath)
+    open func tableView(tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let (cell, _) = cellFrom(indexPath: indexPath)
         return cell.frame.size.height
     }
     
-    public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let (cell, action) = cellFromIndexPath(indexPath)
+    open func tableView(tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let (cell, action) = cellFrom(indexPath: indexPath)
         
         anyCellSelectedAction(cell)
         action(cell)
         
-        cell.selected = false
+        cell.isSelected = false
     }
     
     // MARK: UITableViewDataSource
     
-    public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    open func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
     }
     
-    public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let section = sections[section]
         return section.cells.count
     }
     
-    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let (cell, _) = cellFromIndexPath(indexPath)
+    open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let (cell, _) = cellFrom(indexPath: indexPath)
         return cell
     }
     
-    public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    open func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let section = sections[section]
         return section.title
     }
     
     // MARK:
     
-    func cellFromIndexPath(indexPath: NSIndexPath) -> NACellActionPair {
+    func cellFrom(indexPath: IndexPath) -> NACellActionPair {
         let section = sections[indexPath.section]
         return section.cells[indexPath.row]
     }
