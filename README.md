@@ -1,18 +1,11 @@
 # NATableView
 
 [![CI Status](http://img.shields.io/travis/Nick Ager/NATableView.svg?style=flat)](https://travis-ci.org/Nick Ager/NATableView)
-[![Version](https://img.shields.io/cocoapods/v/NATableView.svg?style=flat)](http://cocoapods.org/pods/NATableView)
-[![License](https://img.shields.io/cocoapods/l/NATableView.svg?style=flat)](http://cocoapods.org/pods/NATableView)
-[![Platform](https://img.shields.io/cocoapods/p/NATableView.svg?style=flat)](http://cocoapods.org/pods/NATableView)
-
-
+[![Version](https://img.shields.io/cocoapods/v/NATableView.svg?style=flat)][cocoapods-url]
+[![License](https://img.shields.io/cocoapods/l/NATableView.svg?style=flat)][cocoapods-url]
+[![Platform](https://img.shields.io/cocoapods/p/NATableView.svg?style=flat)][cocoapods-url]
 [![Swift][swift-badge]][swift-url]
-[![Zewo][zewo-badge]][zewo-url]
-[![Platform][platform-badge]][platform-url]
-[![License][mit-badge]][mit-url]
-[![Slack][slack-badge]][slack-url]
-[![Travis][travis-badge]][travis-url]
-[![Codebeat][codebeat-badge]][codebeat-url]
+
 
 # NATableView
 Wrapper for UITableView, UITableViewDataSource and UITableViewDelegate. 
@@ -43,3 +36,8 @@ Nick Ager, nick.ager@gmail.com
 ## License
 
 NATableView is available under the MIT license. See the LICENSE file for more info.
+
+[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[cocoapods-url]: http://cocoapods.org/pods/NATableView
+[swift-url]: https://swift.org
+
