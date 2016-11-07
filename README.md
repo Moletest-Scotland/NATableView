@@ -1,9 +1,9 @@
 # NATableView
 
 [![CI Status](http://img.shields.io/travis/Nick Ager/NATableView.svg?style=flat)](https://travis-ci.org/Nick Ager/NATableView)
-[![Version](https://img.shields.io/cocoapods/v/NATableView.svg?style=flat)][cocoapods-url]
-[![License](https://img.shields.io/cocoapods/l/NATableView.svg?style=flat)][cocoapods-url]
-[![Platform](https://img.shields.io/cocoapods/p/NATableView.svg?style=flat)][cocoapods-url]
+[![Version][cocoapods-badge]][cocoapods-url]
+[![License][cocoapods-badge]][cocoapods-url]
+[![Platform][cocoapods-badge]][cocoapods-url]
 [![Swift][swift-badge]][swift-url]
 
 
@@ -38,6 +38,7 @@ Nick Ager, nick.ager@gmail.com
 NATableView is available under the MIT license. See the LICENSE file for more info.
 
 [swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[cocoapods-badge]: https://img.shields.io/cocoapods/v/NATableView.svg?style=flat
 [cocoapods-url]: http://cocoapods.org/pods/NATableView
 [swift-url]: https://swift.org
 
