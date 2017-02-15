@@ -43,6 +43,13 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     func commonInit() {
         self.delegate = self
         self.dataSource = self
+        
+        enableResizeableCells()
+    }
+    
+    func enableResizeableCells() {
+        rowHeight = UITableViewAutomaticDimension
+        estimatedRowHeight = 44
     }
     
     
@@ -53,12 +60,6 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     }
     
     // MARK: UITableViewDelegate
-    
-
-    open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let (cell, _) = cellFrom(indexPath: indexPath)
-        return cell.frame.size.height
-    }
     
     open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let (cell, action) = cellFrom(indexPath: indexPath)
