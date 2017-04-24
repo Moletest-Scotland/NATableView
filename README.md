@@ -1,6 +1,6 @@
 # NATableView
 
-[![CI Status](http://img.shields.io/travis/Nick Ager/NATableView.svg?style=flat)(https://travis-ci.org/Nick Ager/NATableView)
+[![CI Status](http://img.shields.io/travis/Nick Ager/NATableView.svg?style=flat)][https://travis-ci.org/Nick Ager/NATableView]
 [![Version][cocoapods-version-badge]][cocoapods-url]
 [![License][cocoapods-licence-badge]][cocoapods-url]
 [![Platform][cocoapods-platform-badge]][cocoapods-url]
