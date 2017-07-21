@@ -12,7 +12,7 @@ public let NANoCellAction: NACellAction = { (_) in }
 public typealias NACellActionPair = (cell: UITableViewCell, action: NACellAction)
 
 public struct NATableSection {
-    let title : String?
+    public let title : String?
     public var cells : [NACellActionPair]
     
     public init(title: String?, cells: [NACellActionPair]) {
