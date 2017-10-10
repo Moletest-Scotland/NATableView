@@ -4,7 +4,6 @@
 [![Version][cocoapods-version-badge]][cocoapods-url]
 [![License][cocoapods-licence-badge]][cocoapods-url]
 [![Platform][cocoapods-platform-badge]][cocoapods-url]
-[![Swift][swift-badge]][swift-url]
 
 
 # NATableView
