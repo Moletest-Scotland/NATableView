@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NATableView'
-  s.version          = '5.1.0'
+  s.version          = '5.2.0'
   s.summary          = 'Wrapper for UITableView, UITableViewDataSource and UITableViewDelegate.'
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Nick Ager' => 'nick.ager@gmail.com' }
   s.source           = { :git => 'https://github.com/nickager/NATableView.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'NATableView/Classes/**/*'
 end

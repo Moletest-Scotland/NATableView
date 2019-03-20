@@ -30,7 +30,7 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
         }
     }
     
-    public override init(frame: CGRect, style: UITableViewStyle) {
+    public override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style:style)
         commonInit()
     }
@@ -48,7 +48,7 @@ open class NATableView: UITableView, UITableViewDelegate, UITableViewDataSource 
     }
     
     func enableResizeableCells() {
-        rowHeight = UITableViewAutomaticDimension
+        rowHeight = UITableView.automaticDimension
         estimatedRowHeight = 44
     }
     
