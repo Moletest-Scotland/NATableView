@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/nickager/NATableView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'NATableView/Classes/**/*'
 end
